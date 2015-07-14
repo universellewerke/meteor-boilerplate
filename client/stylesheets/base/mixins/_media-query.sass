@@ -1,0 +1,7 @@
+=media-query($min, $max: "")
+	@if ($max == "")
+		@media (min-width: $min)
+			@content
+	@else
+		@media (min-width: $min) and (max-width: ($max - 1px))
+			@content

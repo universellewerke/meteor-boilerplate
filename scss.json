@@ -1,0 +1,8 @@
+{
+	"outputStyle": "compressed",
+	"sourceComments": false,
+	"sourceMap": false,
+	"includePaths": [
+		".meteor/local/build/programs/server/assets/packages/wolves_bourbon"
+	]
+}

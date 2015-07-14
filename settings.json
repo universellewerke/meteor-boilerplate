@@ -1,0 +1,8 @@
+{
+	"public": {
+	},
+	"example": {
+		"app_id": "<APPID>",
+		"app_secret": "<APPSECRET>"
+	}
+}

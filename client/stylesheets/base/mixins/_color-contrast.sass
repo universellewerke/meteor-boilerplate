@@ -1,0 +1,5 @@
+@function contrast($input-color)
+	@if (lightness($input-color) > 50)
+		@return #000 // Lighter background, return dark color
+	@else
+		@return #fff // Darker background, return light color
